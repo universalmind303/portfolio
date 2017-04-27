@@ -1,0 +1,84 @@
+/*------------------
+IMAGES
+------------------*/
+
+.author {
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+
+.app-title {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+.bio-container {
+  margin-bottom: 32px;
+}
+
+.heading {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
+  font-size: 60px;
+  margin: 20px;
+  color: #fff;
+  letter-spacing: 2px;
+
+}
+.centered {
+  float: 'none';
+  align-content: 'center';
+  margin: 50px;
+}
+
+a {
+  color: 'red';
+  text-decoration: none;
+
+}
+.nounderline {
+
+}
+
+.links {
+  margin-bottom: 64px;
+}
+
+.header {
+  background-color: #293F50;
+  margin-bottom: 32px;
+}
+
+.b-head {
+  font-family: 'Lato', sans-serif;
+  size: 45px;
+  margin: 20px 20px;
+}
+
+.c-head {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  margin: 10px;
+}
+
+.app-desc {
+  margin-top: 18px;
+}
+
+.app-photo {
+  max-width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+
+.footer {
+  align-self: 'center';
+  text-align: 'center';
+  position: fixed; 
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+}
