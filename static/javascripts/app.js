@@ -1,6 +1,6 @@
-'use strict';   // See note about 'use strict'; below
 
 var myApp = angular.module('myApp', [
+  'portfolio',
   'ngRoute',
 ]);
 
@@ -11,6 +11,7 @@ myApp.config(['$routeProvider',
       templateUrl: '/static/partials/landing.html',
     })
     .when('/portfolio', {
+      controller: 'portfolioCtrl',
       templateUrl: '../static/partials/portfolio.html',
     })
     .when('/blogs', {
@@ -23,3 +24,16 @@ myApp.config(['$routeProvider',
       redirectTo: '/'
     });
   }]);
+
+angular.module('requests', [])
+
+.factory('Request', function($http) {
+  return {
+    gotoGroceryBag: function() {
+      return $http({
+        url: '/grocerybag'
+      });
+    },
+  };
+});
+

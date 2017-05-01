@@ -1,0 +1,10 @@
+{
+  "name": "flasklanding",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "universalmind303 <universalmind.candy@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^2.4.1"
+  }
+}

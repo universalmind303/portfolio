@@ -1,0 +1,13 @@
+{
+  "project_name": "Cory Landing",
+  "project_description": "my bio",
+  "show_files": [
+    "app.py",
+    "app.yaml",
+    "appengine_config.py"
+  ],
+  "read_only_files": [
+    "app.yaml"
+  ],
+  "download_filename": "appengine-try-python-flask.zip"
+}

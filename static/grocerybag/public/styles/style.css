@@ -1,0 +1,196 @@
+/* General */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1.125em; /* 16px --> 18px */
+}
+
+body {
+  color: #333;
+  line-height: 1.5rem;
+  /*  BEGIN: BETTER HELVETICA by Chris Coyier https://css-tricks.com/snippets/css/better-helvetica/ */
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+                Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  /* END: BETTER HELVETICA */
+}
+
+.right {
+  text-align: right;
+}
+
+a {
+  color: #3498DB;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  text-decoration: underline;
+}
+
+/* Header */
+
+.header {
+  background-color: #3498DB;
+  color: #FFF;
+  width: 100%;
+  position: fixed;
+  height: 5rem;
+  top: 0;
+  padding: .75rem 0;
+  /*padding: .75rem;*/
+  /* TODO: replace hard-coded height with JavaScript so it can be any height */
+}
+
+.onBudget { background-color: #3498DB; }
+
+.warningBudget { background-color: #F39C12; }
+
+.overBudget { background-color: #E74C3C; }
+
+.statLabel {
+  font-size: 0.667rem;
+  letter-spacing: .05em;
+  line-height: 1.25rem;
+  text-transform: uppercase;
+}
+
+.statValue {
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
+/* List */
+
+.list {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  margin-top: 5rem;
+}
+
+.listItem {
+  border-bottom: 0.05rem solid #EEE;
+}
+
+.listItem td {
+  padding: 0.75rem;
+}
+
+.listItem .name {
+  width: 60%;
+}
+
+.listItem .price {
+  width: 30%;
+  text-align: right;
+}
+
+.listItem .delete {
+  border-right: 0.05rem solid #EEE;
+  padding: 0;
+  text-align: center;
+  width: 10%;
+}
+
+.listItem .delete button {
+  background: none;
+  border: none;
+  color: #ccc;
+  cursor: pointer;
+  display: block;
+  font-size: 1rem;
+  padding: 1rem;
+  margin: 0;
+  width: 100%;
+}
+
+.listItem .delete button:active {
+  background-color: #E74C3C;
+  border-color: #E74C3C;
+  color: #FFF;
+}
+.gu-mirror {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: opacity 0.4s ease-in-out;
+  position: fixed;
+  margin: 0 ;
+  z-index: 9999;
+  opacity: 0.8;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter: alpha(opacity=80);
+}
+.gu-hide {
+  display: none;
+}
+.gu-unselectable {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.gu-transit {
+  opacity: 0.2;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+  filter: alpha(opacity=20);
+}
+
+/* Forms */
+
+input, button, textarea {
+  border: none;
+  outline: none;
+}
+
+.inlineEdit {
+  display:block;
+  width: 100%;
+}
+
+.inlineEdit input {
+  background: transparent;
+  border: inherit;
+  color: inherit;
+  display: inline;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  text-align: inherit;
+  text-transform: inherit;
+  margin: inherit;
+  padding: inherit;
+  width: inherit !important;
+}
+
+.placeholder {
+  color: #AAA;
+}
+
+.addItem {
+  background: none;
+  border-bottom: 0.05rem solid #EEE;
+  color: #3498DB;
+  display: block;
+  padding: 0.75rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.addItem:hover {
+  text-decoration: none;
+}
+
+.addItem:active {
+  background: #3498DB;
+  color: #FFF;
+  text-decoration: none;
+}
