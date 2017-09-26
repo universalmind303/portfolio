@@ -5,6 +5,7 @@
   "author": "universalmind303 <universalmind.candy@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "angular": "^1.6.6",
     "webpack": "^2.4.1"
   }
 }

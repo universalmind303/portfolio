@@ -12,6 +12,12 @@ IMAGES
   font-family: 'Lato', sans-serif;
   font-weight: 300;
 }
+.app-title :hover {
+  cursor: pointer;
+}
+.left-buffer {
+  padding-left: 20px
+}
 
 .bio-container {
   margin-bottom: 32px;
@@ -22,15 +28,37 @@ IMAGES
 .second {
   height: 50%;
 }
-
+.header {
+  color: #293F50 ;
+}
 .heading {
   font-family: 'Lato', sans-serif;
   font-weight: 200;
   font-size: 35px;
   margin: 10px;
-  color: #fff;
+  color: #293F50;
   letter-spacing: 2px;
 
+}
+.fill {
+  height: 100%;
+}
+
+.wrap {
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+
+.skills {
+  height: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  background-color:#293F50;
 }
 
 .me-jpg {
@@ -71,7 +99,7 @@ a {
 
 
 .header {
-  background-color: #222;
+  background-color: #293F50;
   margin-bottom: 25px;
 }
 
